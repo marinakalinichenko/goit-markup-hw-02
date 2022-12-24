@@ -175,3 +175,58 @@ color: var(--accent-color);}
     background-color: var(--dark-color);
 }
 /*------------------/FOOTER--------------------*/
+
+
+/*---------------PORTFOLIO-----------------*/
+.visually-hidden {
+    border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; 
+}
+.filters-btn {
+    font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+/* IRIS */
+color: var(--links-color);
+background: var(--footer-logo-color);
+cursor: pointer;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+    color: var(--btn-color);
+   background-color: var(--pressed-state-color);
+}
+.photos-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */ 
+    color: var(--dark-color); 
+}
+.photos-subtitle{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: var(--text-color);
+}
+.photos-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* CLOUD */
+    color: var(--footer-logo-color);
+    background-color: var(--links-color)
+}
