@@ -222,11 +222,3 @@ cursor: pointer;
     /* SLATE */
     color: var(--text-color);
 }
-.photos-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* CLOUD */
-    color: var(--footer-logo-color);
-    background-color: var(--links-color)
-}
